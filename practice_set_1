@@ -1,1 +1,50 @@
+void main() {
+  //p1
+  print('Name : Het Kotecha');
+  print('D.O.B: 16/01/2006');
+  print('Age: 17 ');
+  print('Address: Near airport phatak');
 
+  //p2
+  int a = 5;
+  int b = 5;
+
+  print('Addition: ${a += b}');
+  print('Subtraction: ${a -= b}');
+  print('Multiplication: ${a *= b}');
+  print('Division: ${a / b}');
+
+  //p3
+  int c = 2;
+
+  print('Square: ${c * c}');
+  print('Cube: ${c * c * c}');
+
+  //p4
+  double pi = 3.14;
+  int radius = 3;
+
+  print('Area of Circle: ${pi * radius * radius}');
+
+  //p5
+  double Base = 10.1;
+  double height = 10.1;
+
+  print('Area of triangle: ${0.5 * Base * height}');
+
+  //p6
+  double p = 11.1;
+  double r = 12.1;
+  double t = 13.1;
+
+  print('Simple Interest: ${(p * r * t) / 100}');
+
+  //p7
+  int subject1 = 90;
+  int subject2 = 66;
+  int subject3 = 84;
+  int subject4 = 59;
+  int subject5 = 75;
+
+  print('Percentage: ${(subject1 + subject2 + subject3 + subject4 + subject5) / 5}');
+}
