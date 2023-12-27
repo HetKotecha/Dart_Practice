@@ -9,7 +9,7 @@ void main() {
   int a = 5;
   int b = 5;
 
-  print('Addition: ${a += b}');
+  print('\n\nAddition: ${a += b}');
   print('Subtraction: ${a -= b}');
   print('Multiplication: ${a *= b}');
   print('Division: ${a / b}');
@@ -17,27 +17,27 @@ void main() {
   //p3
   int c = 2;
 
-  print('Square: ${c * c}');
+  print('\n\nSquare: ${c * c}');
   print('Cube: ${c * c * c}');
 
   //p4
   double pi = 3.14;
   int radius = 3;
 
-  print('Area of Circle: ${pi * radius * radius}');
+  print('\n\nArea of Circle: ${pi * radius * radius}');
 
   //p5
   double Base = 10.1;
   double height = 10.1;
 
-  print('Area of triangle: ${0.5 * Base * height}');
+  print('\n\nArea of triangle: ${0.5 * Base * height}');
 
   //p6
   double p = 11.1;
   double r = 12.1;
   double t = 13.1;
 
-  print('Simple Interest: ${(p * r * t) / 100}');
+  print('\n\nSimple Interest: ${(p * r * t) / 100}');
 
   //p7
   int subject1 = 90;
@@ -46,5 +46,5 @@ void main() {
   int subject4 = 59;
   int subject5 = 75;
 
-  print('Percentage: ${(subject1 + subject2 + subject3 + subject4 + subject5) / 5}');
+  print('\n\nPercentage: ${(subject1 + subject2 + subject3 + subject4 + subject5) / 5}');
 }
