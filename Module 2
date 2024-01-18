@@ -306,8 +306,8 @@ void main(){
  int currentNumber = int.parse(stdin.readLineSync()!);
 
  if (i == 1 || currentNumber > max) {
- max = currentNumber;
- }
+  max = currentNumber;
+  }
  }
 
  print("The maximum number is: $max");
@@ -344,11 +344,32 @@ void main(){
  }
 
  int sum = firstDigit + lastDigit;
- 
- print("Sum of First and Last Digit: $sum");
- 
- 
 
+ print("Sum of First and Last Digit: $sum");
+
+ //11.
+ int rows = 5;
+ for(int i = 0 ; i< rows; i++)
+ {
+ for(int j = 0; j<=i;j++)
+ {
+  stdout.write('* ');
+ }
+  stdout.writeln();
+ }
+
+ //12.
+ int i, j, numbers, n = 5;
+ for(i=0;i<n;i++){
+ numbers = 1;
+ for(j = 0; j<=i;j++)
+ {
+  stdout.write('$numbers ');
+  numbers++;
+ }
+  stdout.writeln();
+ }
+ 
 }
 
 void printFibonacciSeries(int n) {
